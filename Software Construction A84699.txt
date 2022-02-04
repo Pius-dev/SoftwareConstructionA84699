@@ -1,8 +1,10 @@
-These fundamental notions of the built world found parallels in the 1960s world of software construction. The architecture metaphor for software development, and particularly for programming-in-the-large, originated with Fred Brooks in the 1960s. Brooks himself was a bit skeptical of his own brainchild but, after discussions with Jerry Weinberg, became convinced of its metaphoric value for the software world .
+#History Of Software Construction
+
+These fundamental notions of the built world found parallels in the 1960s world of software construction.<br> The architecture metaphor for software development, and particularly for programming-in-the-large, originated with Fred Brooks in the 1960s.<br> Brooks himself was a bit skeptical of his own brainchild but, after discussions with Jerry Weinberg, became convinced of its metaphoric value for the software world .
 
 Software has strongly embraced this metaphor, both for its casual parallels to programming-in-the-large on one hand and for some of its specific techniques on the other. Software engineering tends to emphasize the former, with the strongest parallels relating to the concerns around the coarse or large structure of software and how it relates to the prominent architectural features in the framing of an edifice in the built world. The pattern discipline  is an example of the latter, whose philosophies of local adaptation and piecemeal growth became an alternative to big-up-front-design in the 1990s and flourished in the guise of the agile movement in the ensuring decade.
 
-## 1. Waterfall Model
+##1. Waterfall Model
 
 The waterfall model is a sequential, plan driven-process where you must plan and schedule all your activities before starting the project. <br>Each activity in the waterfall model is represented as a separate phase arranged in linear order.<br>
 It has the following phases:
