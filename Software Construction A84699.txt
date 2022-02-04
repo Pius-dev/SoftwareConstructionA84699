@@ -1,58 +1,128 @@
+These fundamental notions of the built world found parallels in the 1960s world of software construction. The architecture metaphor for software development, and particularly for programming-in-the-large, originated with Fred Brooks in the 1960s. Brooks himself was a bit skeptical of his own brainchild but, after discussions with Jerry Weinberg, became convinced of its metaphoric value for the software world .
+
+Software has strongly embraced this metaphor, both for its casual parallels to programming-in-the-large on one hand and for some of its specific techniques on the other. Software engineering tends to emphasize the former, with the strongest parallels relating to the concerns around the coarse or large structure of software and how it relates to the prominent architectural features in the framing of an edifice in the built world. The pattern discipline  is an example of the latter, whose philosophies of local adaptation and piecemeal growth became an alternative to big-up-front-design in the 1990s and flourished in the guise of the agile movement in the ensuring decade.
+
+## 1. Waterfall Model
+
+The waterfall model is a sequential, plan driven-process where you must plan and schedule all your activities before starting the project. <br>Each activity in the waterfall model is represented as a separate phase arranged in linear order.<br>
+It has the following phases:
+
+    •	Requirements
+    •	Design
+    •	Implementation
+    •	Testing
+    •	Deployment
+    •	Maintenance
+   
+  Advantages
+  
+  •	Easy to Control and Manage: The section division in the Waterfall executes it easier to handle. Each phase produces its own procedures and reliability.
+  •	High Visibility: The output after completion of each phase generates high visibility in the Waterfall model.
+  •	Reduced Number of Problematic Issues: The output of each phase is examined ere it is sent to the subsequent phase, as the Waterfall model holds different phases.
+
+  Disadvantages<br>
+    •	Making Changes can be Problematic: The Waterfall model completely depends on the subsequent steps which make the team progress forward.
+    •	Delayed Testing until after Completion: The testing cannot linger until the half last of the project as it can be risky.
+    •	Not efficient model for object oriented and complex projects.
+    •	There is high amount of risks and uncertainty and risk.
 
 
- Into software
-These fundamental notions of the built world found parallels in the 1960s world of software construction. The architecture metaphor for software development, and particularly for programming-in-the-large, originated with Fred Brooks in the 1960s. Brooks himself was a bit skeptical of his own brainchild but, after discussions with Jerry Weinberg, became convinced of its metaphoric value for the software world [6].
+2. V Model:
 
-Software has strongly embraced this metaphor, both for its casual parallels to programming-in-the-large on one hand and for some of its specific techniques on the other. Software engineering tends to emphasize the former, with the strongest parallels relating to the concerns around the coarse or large structure of software and how it relates to the prominent architectural features in the framing of an edifice in the built world. The pattern discipline [5] is an example of the latter, whose philosophies of local adaptation and piecemeal growth became an alternative to big-up-front-design in the 1990s and flourished in the guise of the agile movement in the ensuing decade
+The V model (Verification and Validation model) is an extension of the waterfall model. All the requirements are gathered at the start and cannot be changed. You have a corresponding testing activity for each stage. For every phase in the development cycle, there is an associated testing phase.
 
+  Advantages
+  •	The V Model provides a proactive error tracking feature for developers.
+    •	The V Model architecture helps to save a lot of time compared to the general process of implementation.
+    •	The V Model is straightforward to use, and the architecture is candid, which is a plus point in its design.
+    •	The use of the V Model is straightforward and easy for the development of software.
 
+  Disadvantages
+  •	The management of the V model is pretty risky and unstable.
+  •	The V model is very rigid and hard to execute compared to other software.
+  •	The design has limited flexibility in terms of its execution.  It is overall not          suitable to use for building object-oriented software.
+  •	Both test documents and requirement documents require to be updated if there is any     fault in the system
 
-
-
-
-
-
-
-Software construction is a discipline 
-
-
-Requirememt gathering
-Design (activity diagram, class diagram) 
-Development
-Testing and debugging
-maintenance
-
-
-obj
- Come up with a criteria to determine the good programmers
+3. Incremental Model
+The incremental model divides the system’s functionality into small increments that are delivered one after the other in quick succession. The most important functionality is implemented in the initial increments.
+The subsequent increments expand on the previous ones until everything has been updated and implemented.
+Incremental development is based on developing an initial implementation, exposing it to user feedback, and evolving it through new versions. The process’ activities are interwoven by feedback. Each iteration passes through the requirements, design, coding, and testing stages.
 
 
- Come up with the criteria to determine the good software
-(No bebugs,efficent, be fast, maintainable, Easy to use) 
+Advantages
+  •	The software will be generated quickly during the software life cycle
+  •	It is flexible and less expensive to change requirements and scope
+  •	Each iteration phase is rigid and does not overlap each other
+  •	Rectifying a problem in one unit requires correction in all the units and consumes a     lot of time
+  •	A customer can respond to each building
 
-Produce a good software, Good time
-
-
-challenges.
-Large line of code
-The requirements keep changing
-Large development team
-
-The practices,tools for becoming  a good developer
-
-Different software project models
-
-Advantages and disadvantages of each model
-
-agile, waterfall, 
-
-read about Extreme engineering
-
-In about two paragraphs, explain the history of software construction.
+Disadvantages
+    •	Problems might cause due to system architecture as such not all requirements              collected up front for the entire software lifecycle
+    •	Throughout the development stages changes can be done
+    •	This model is less costly compared to others
+    •	It requires a good planning designing
 
 
-  A proposal documents (not more than 5 pages)
-  A requiremets documemts
+ 4. Agile model
 
+The agile process model encourages continuous iterations of development and testing. Each incremental part is developed over an iteration, and each iteration is designed to be small and manageable so it can be completed within a few weeks.
+Each iteration focuses on implementing a small set of features completely. It involves customers in the development process and minimizes documentation by using informal communication.<br>
+Agile development considers the following:
+  •	Requirements are assumed to change
+  •	The system evolves over a series of short iterations
+  •	Customers are involved during each iteration
+  •	Documentation is done only when needed
+  
+ Advantages
  
- 
+     •	Working software is delivered frequently (weeks rather than months).
+    •	Face-to-face conversation is the best form of communication.
+    •	Close, daily cooperation between business people and developers.
+    •	Continuous attention to technical excellence and good design.
+    •	Regular adaptation to changing circumstances.
+•	Even late changes in requirements are welcomed
+
+Disadvantages<br>
+  •	There is lack of emphasis on necessary designing and documentation.
+  •	The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
+  •	Only senior programmers are capable of taking the kind of decisions required during the development process. Hence it has no place for newbie programmers, unless combined with experienced resources.
+
+5. Spiral Model
+
+The spiral model is a risk driven iterative software process model. The spiral model delivers projects in loops.<br> Unlike other process models, its steps aren’t activities but phases for addressing whatever problem has the greatest risk of causing a failure.
+It was designed to include the best features from the waterfall and introduces risk-assessment.
+You have the following phases for each cycle:
+  1.	Address the highest-risk problem and determine the objective and alternate solutions
+  2.	Evaluate the alternatives and identify the risks involved and possible solutions
+  3.	Develop a solution and verify if it’s acceptable
+  4.	Plan for the next cycle
+  
+    Advantages of Spiral model:
+  
+  •	High amount of risk analysis hence, avoidance of Risk is enhanced.
+  •	Good for large and mission-critical projects.
+  •	Strong approval and documentation control.
+  •	Additional Functionality can be added at a later date.
+  •	Software is produced early in the software life cycle.
+  
+  Disadvantages of Spiral model:
+    •	Can be a costly model to use.
+    •	Risk analysis requires highly specific expertise.
+    •	Project’s success is highly dependent on the risk analysis phase.
+    •	Doesn’t work well for smaller projects.
+
+6. Iterative Model
+The iterative development model develops a system through building small portions of all the features. This helps to meet initial scope quickly and release it for feedback.
+In the iterative model, you start off by implementing a small set of the software requirements. These are then enhanced iteratively in the evolving versions until the system is completed. This process model starts with part of the software, which is then implemented and reviewed to identify further requirements.
+Like the incremental model, the iterative model allows you to see the results at the early stages of development. This makes it easy to identify and fix any functional or design flaws. It also makes it easier to manage risk and change requirements.
+
+
+Advantages
+
+  •	In iterative model we can get the reliable user feedback.
+  •	In iterative model less time is spent on documenting and more time is given for designing.
+
+Disadvantages of Iterative model:
+
+  •	Each phase of an iteration is rigid with no overlaps
+  •	Costly system architecture or design issues may arise because not all requirements are gathered up front for the entire lifecycle
