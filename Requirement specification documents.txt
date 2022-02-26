@@ -1,0 +1,49 @@
+Software Requirement Specification for The  HealthCare Management System
+
+
+User Characteristics:-
+This software is developed such that total appearance of the product to make it more user friendly. The operator will be provided with loginid and password. General users with basic computer skills can use this software.
+
+ General Constraints:-
+• Any update regarding the patients information from the hospital are to be recorded to have updated and correct values.Constraints
+• GUI is only in English.
+• Login and password is used for identification of user and there is no facility for guest.
+
+
+ Assumption and Dependencies:-
+All the data entered will be correct and up_to_date.
+
+ SPECIFIC REQUIREMENTS
+It describes all the details that the software developer need to know for designing and developing the system. This is typically the largest and most important part of the document.
+
+ External Interface Requirements:-
+
+ User Interface:-
+User interface is designed in a user friendly manner and the user, in another end he has to give the order, for that he will interface with keyboard and mouse.
+3.1.2. Hardware Interface:-
+1) OS – windows 
+3) RAM – 2 GB
+
+ Software Interface:-
+
+1) Front end – html, css, python, js language
+
+2) Back end – python, SQLite
+
+ Functional Requirements:-
+
+ Administration module:-
+This module enables the user to insert, update, view and delete the patient information.
+
+Patient module:-
+
+DoctorId,Name,Age,Sex,Address,Phone Number,department
+
+Patient module:-
+
+PatientId,Name,Age,Sex,Address,Phone Number,Weight
+
+
+ Performance Requirements:-
+The capability of the computer depends on the performance of the software. The software can take any number of input provided the database size is large enough. This would depend on the available memory space.
+ Design
