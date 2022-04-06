@@ -26,14 +26,14 @@ User interface is designed in a user friendly manner and the user, in another en
 
  Software Interface:-
 
-1) Front end – html, css, python, js language
+1) Front end – React js
 
-2) Back end – python, SQLite
+2) Back end – spring boot
 
  Functional Requirements:-
 
- Administration module:-
-This module enables the user to insert, update, view and delete the patient information.
+ User module:-
+This module enables the user to perform the add, delete, update in the system after loging in.
 
 Patient module:-
 
@@ -41,7 +41,9 @@ DoctorId,Name,Age,Sex,Address,Phone Number,department
 
 Patient module:-
 
-PatientId,Name,Age,Sex,Address,Phone Number,Weight
+PatientId,Name,Age,Sex,Address,Phone Number
+
+Address Module: This is where the paitents address is obtained
 
 
  Performance Requirements:-
