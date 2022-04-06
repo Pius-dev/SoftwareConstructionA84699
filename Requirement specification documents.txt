@@ -1,4 +1,4 @@
-Software Requirement Specification for The  HealthCare Management System
+Software Requirement Specification for The  Appointment Booking System
 
 
 User Characteristics:-
